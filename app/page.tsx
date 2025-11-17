@@ -77,7 +77,7 @@ export default function Home() {
               <div
                 key={index}
                 onClick={() => goToSlide(index)}
-                className={`w-3 h-3 rounded-full  transition-all duration-300 ${current === index ? "bg-white w-5" : " bg-white/50"
+                className={`w-3 h-3 rounded-full cursor-pointer transition-all duration-300 ${current === index ? "bg-white w-5" : " bg-white/50"
                   }`}
               ></div>
             ))}
